@@ -264,6 +264,8 @@ header {
 .feature-icon {
   display: block;
   align-items: center;
+  width: 64px;
+  height: 64px;
 }
 
 .feature-img-link {
@@ -379,8 +381,6 @@ header {
 }
 
 .team-soc-icon {
-  width: 16px;
-  height: 16px;
   fill: #f4f4fd;
 }
 
