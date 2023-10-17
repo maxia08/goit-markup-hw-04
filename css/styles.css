@@ -250,6 +250,8 @@ header {
   flex-basis: calc((100% - 72px) / 4);
 }
 .feature-box {
+}
+.feature-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -260,12 +262,6 @@ header {
   border: 1px solid var#8E8F99;
   background: #f4f4fd;
   margin-bottom: 8px;
-}
-.feature-icon {
-  display: block;
-  align-items: center;
-  width: 64px;
-  height: 64px;
 }
 
 .feature-img-link {
