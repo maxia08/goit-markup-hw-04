@@ -376,9 +376,11 @@ header {
   gap: 24px;
 }
 .soc-icon-item {
+  gap: 24px;
 }
 .team-soc-icon {
   fill: #f4f4fd;
+  gap: 24px;
 }
 
 .team-soc-link {
