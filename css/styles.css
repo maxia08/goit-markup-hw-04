@@ -577,7 +577,8 @@ footer {
   gap: 16px;
   margin-top: 16px;
 }
-.soc-icon-item {
+
+.footer-soc-icon-item {
   width: 40px;
   height: 40px;
 }
