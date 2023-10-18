@@ -87,10 +87,25 @@ header {
 .header-menu-list {
 }
 
+.header-menu-list:focus {
+  color: #404bbf;
+}
+
+.header-menu-link {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .line {
   position: relative;
   color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .line::after {
   content: "";
   position: absolute;
@@ -103,22 +118,7 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-menu-list:focus {
-  color: #404bbf;
-}
-.header-menu-link {
-  display: block;
-  color: #2e2f42;
-  /* Body Medium */
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-  padding: 24px 0;
-}
-.header-menu-link:hover {
-  color: #404bbf;
-}
+.header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
 }
