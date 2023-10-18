@@ -395,7 +395,8 @@ header {
   gap: 24px;
 }
 .soc-icon-item {
-  gap: 24px;
+  width: 40px;
+  height: 40px;
 }
 .team-soc-icon {
   fill: #f4f4fd;
