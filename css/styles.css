@@ -573,14 +573,14 @@ footer {
   margin-bottom: 16px;
 }
 .footer-soc-icon {
+  display: flex;
+  gap: 16px;
   margin-top: 16px;
 }
 
 .footer-soc-icon-item {
   width: 40px;
   height: 40px;
-  display: flex;
-  gap: 16px;
 }
 
 .footer-soc-link {
