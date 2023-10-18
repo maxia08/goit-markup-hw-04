@@ -496,6 +496,11 @@ footer {
   align-items: center;
 }
 
+.soc-icon {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
 .footer-sm-container {
 }
 
