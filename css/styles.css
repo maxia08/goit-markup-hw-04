@@ -389,8 +389,9 @@ header {
 
 .soc-icon {
   display: flex;
-  gap: 24px;
   justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 .soc-icon-item {
